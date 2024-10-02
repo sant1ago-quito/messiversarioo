@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfcfb; /* Fondo blanco cálido */
+    color: #6b6b6b; /* Texto gris suave */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9c6d1; /* Rosa suave */
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff; /* Blanco para el texto del encabezado */
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6b6b6b; /* Gris suave */
+}
+
+section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #6b6b6b; /* Gris suave */
+    text-align: left;
+}
+
+.photo-collage {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Seis columnas iguales */
+    gap: 10px; /* Espacio entre las fotos */
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #ffe5ec;
+}
+
+/* Estilos creativos para el collage */
+.photo:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.photo:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.photo:nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.photo:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.photo:nth-child(5) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.photo:nth-child(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.photo:nth-child(7) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.photo:nth-child(8) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.photo:nth-child(9) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.photo:nth-child(10) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.photo:nth-child(11) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.photo:nth-child(12) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.photo:nth-child(13) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.photo:nth-child(14) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+
+footer {
+    background-color: #f9c6d1; /* Rosa suave */
+    color: #ffffff; /* Texto blanco */
+    padding: 0.4px; /* Reducido el padding para hacerlo más pequeño */
+    font-size: 1em; /* Tamaño de fuente más pequeño */
+    position: bottom;
+    width: 40%;
+    bottom: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
